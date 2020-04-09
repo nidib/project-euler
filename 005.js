@@ -12,6 +12,7 @@ while(!found) {
             flags++;
             if(flags === within) {
                 found = true;
+                break;
             }
         } else {
             number += 20;
