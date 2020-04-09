@@ -15,7 +15,7 @@ while(!found) {
                 break;
             }
         } else {
-            number += 20;
+            number += within;
             flags = 0;
         }
     }
